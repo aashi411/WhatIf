@@ -1,0 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/galatia-sil');
+             
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Galatia SIL', sans-serif;
+  color-scheme: dark;
+}
