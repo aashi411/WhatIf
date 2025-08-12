@@ -9,7 +9,7 @@ import s6 from '../assets/Simulation/s6.jpg'
 
 const Simulation = () => {
   return (
-    <div className='bg-black m-10 p-4 border border-white'>
+    <div className='bg-black m-10  p-4 '>
         <div className='justify-start text-6xl font-bold'>
             <h2>Popular Simulation</h2>
         </div>

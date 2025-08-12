@@ -1,10 +1,8 @@
-import React from 'react'
-import Navbar from './Navbar'
+
 import heroImage from '../assets/hero.jpg'
 import Form from './Form'
 import Workflow  from "./Workflow"
 import Simulation from './Simulation'
-import city from '../assets/end.jpg'
 import Review from './Review'
 
 const HeroSection = () => {
@@ -15,10 +13,9 @@ const HeroSection = () => {
                     bg-cover bg-center bg-no-repeat
                     bg-black relative" 
             style={{backgroundImage: `url(${heroImage})`}}>
-            <Navbar/>
-            <div className='flex flex-col'>
-                <div className='m-10 px-16 justify-items-start'>
-                    <h1 className='text-6xl top-6 text-bold'>What if your Life <br/> Changed?</h1>
+            <div className=' flex flex-col'>
+                <div className='m-10 mt-48 px-16 justify-items-start font-serif'>
+                    <h1 id='ContactUs' className='text-6xl top-6 text-bold'>What if your Life <br/> Changed?</h1>
                     <h5  className='text-bold text-lg py-4'>
                         Wondering how your life would look in a new city?<br/>
                         Curious about living with a different salary or lifestyle?<br/>
@@ -36,22 +33,14 @@ const HeroSection = () => {
             </div>
             <div className="bg-black h-auto pt-50">
                 {/* Content below contact form */}
-                <div className="container mx-auto px-4">
+                <div id='Workflow' className="container mx-auto px-4">
                     <Workflow/>
                 </div>
-                <div className='h-full'>
+                <div id='Simulation' className='h-full'>
                     <Simulation/>
                 </div> 
-                <div className='relative'>
+                <div id='Reviews' className='relative'>
                     <Review/>
-                    {/* <div className="h-full w-full 
-                        bg-cover bg-center bg-no-repeat
-                        bg-black absolute" 
-                        style={{backgroundImage: `url(${city})`}}>
-                        <div className='flex justify-start m-8 p-10 absolute' >
-                            <div className='text-lg bg-opacity-50 italic text-black rounded-lg bg-sky-300'>Go Confidently in the directions of ypur dreams.</div>
-                        </div>
-                    </div>   */}
                     
                 </div>     
             </div>
@@ -59,12 +48,7 @@ const HeroSection = () => {
         
         
     </div>
-    {/* <img src={city}
-        className='w-full'
-        alt='city'/>
-        <div className='flex justify-start m-8 p-10 absolute' >
-            <div className='text-lg bg-opacity-50 italic text-black rounded-lg bg-sky-300'>Go Confidently in the directions of ypur dreams.</div>
-    </div> */}
+
     </>
 )
 }

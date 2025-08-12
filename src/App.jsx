@@ -1,7 +1,6 @@
 
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
-import Simulation from "./components/Simulation"
 
 
 function App() {
@@ -9,6 +8,7 @@ function App() {
 
   return (
     <>
+      <Navbar/>
       <HeroSection/>
     </>
   )

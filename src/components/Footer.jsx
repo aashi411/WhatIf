@@ -14,13 +14,13 @@ const Footer = () => {
     //   <div></div>
     // </div>
 
-    <footer className="bg-black bg-opacity-70   text-sky-300 py-8 p-12">
+    <footer className="bg-black bg-opacity-70   text-sky-300 py-4 p-12">
         <div className='flex flex-col-3 justify-between'>
             <div className="flex items-center gap-2">
             <img src={logo} alt="What If Simulator" className="w-12 h-12" />
             </div>
 
-            <a href="#" className="text-blue-300 underline">
+            <a href="#ContactUs" className="text-blue-300 underline">
             Contact Us
             </a>
 
@@ -58,7 +58,7 @@ const Footer = () => {
 
         {/* Explore */}
         <div>
-          <h3 className="font-semibold mb-2">Explore</h3>
+          <h3 className="font-semibold mb-2 underline">Explore</h3>
           <ul className="space-y-2">
             <li className="flex items-center gap-2 hover:text-gray-300 cursor-pointer">
               <Compass size={18} /> popular simulations
@@ -74,7 +74,7 @@ const Footer = () => {
 
         {/* Company */}
         <div>
-          <h3 className="font-semibold mb-2">Company</h3>
+          <h3 className="font-semibold mb-2 underline">Company</h3>
           <ul className="space-y-2">
             <li className="flex items-center gap-2 hover:text-gray-300 cursor-pointer">
               <HelpCircle size={18} /> about us
@@ -90,7 +90,7 @@ const Footer = () => {
 
         {/* Account */}
         <div>
-          <h3 className="font-semibold mb-2">Account</h3>
+          <h3 className="font-semibold mb-2 underline">Account</h3>
           <ul className="space-y-2">
             <li className="flex items-center gap-2 hover:text-gray-300 cursor-pointer">
               <LogIn size={18} /> login/register

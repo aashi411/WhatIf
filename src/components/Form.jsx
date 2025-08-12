@@ -30,7 +30,7 @@ const Form = () => {
     ];
 
   return (
-    <div className='container w-full  m-10 sm:m-6 lg:m-12 rounded-xl p-4 bg-white/10 border border-white/20 backdrop-blur-lg'>
+    <div className='container w-full  m-10 sm:m-6 lg:m-12 rounded-xl p-4 bg-white/10 border border-white/20  backdrop-blur-lg'>
       <div className='p-8 w-full '>
         <div className="grid grid-col-1 lg:grid-cols-2 gap-8 mb-8">
           <div className="space-y-3 w-50%">
@@ -130,7 +130,7 @@ const Form = () => {
         </div>
 
         {/* Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 h-10 justify-center">
+        <div className="flex flex-row sm:flex-row gap-4 h-10 justify-center">
           <button className="w-1/3 bg-slate-900 hover:bg-slate-900/80 text-white px-8  rounded-2xl font-medium transition-all duration-300 backdrop-blur-sm border border-white/20 hover:border-white/30 font-poppins min-w-[160px]">
             Explore Cities
           </button>

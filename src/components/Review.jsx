@@ -14,7 +14,7 @@ const Review = () => {
         ></div>
 
         {/* Dark Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t  from-slate-900/60 to-slate-900"></div>
+        <div className="absolute inset-0 bg-gradient-to-t  from-slate-900/70 to-slate-900"></div>
 
         {/* Content */}
         <div className="relative z-10">
