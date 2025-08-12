@@ -2,6 +2,7 @@ import React from 'react'
 import city from '../assets/end.jpg'
 import Corestore from './Corestore'
 import Footer from './Footer'
+import { Quote } from 'lucide-react'
 
 const Review = () => {
   return (
@@ -18,24 +19,36 @@ const Review = () => {
 
         {/* Content */}
         <div className="relative z-10">
-            <div className="flex m-6 w-80% h-60 p-10 justify-center">
-                <h1 className="text-4xl italic pt-10 text-black rounded-lg text-center bg-sky-300">
-                    Go Confidently in the direction of your dreams.<br/> Live the Life you Dream of.
-                </h1>
+            <div className="flex  justify-center">
+                <div className='p-4  bg-sky-300 m-8 w-3/4 h-44 flex flex-col text-center rounded-lg'>
+                    <div className='fill-black text-black '><Quote /></div>
+                    <h1 className="text-4xl italic  text-black  ">
+                        Go Confidently in the direction of your dreams.<br/> Live the Life you Dream of.
+                    </h1>
+                    <div className='text-sm text-end italic font-bold pb-5 text-gray-700'>~ Henery David Thoreau</div>
+                </div>
             </div>
             <div className='m-6 p-4 font-bold flex justify-start'>
                 <h1 className='text-white text-5xl'>Customer Reviews</h1>
             </div>
             <Corestore />
-            <div className="flex m-8 w-80% h-60 p-10 justify-center">
-                <h1 className="text-4xl italic pt-10 text-black rounded-lg text-center bg-sky-300">
-                    Go Confidently in the direction of your dreams.<br/> Live the Life you Dream of.
-                </h1>
+            <div className="flex  justify-start">
+                <div className='p-4  bg-sky-300 m-8 w-3/4 h-40 flex flex-col text-center rounded-lg'>
+                    <div className='fill-black text-black '><Quote /></div>
+                    <h1 className="text-4xl italic  text-black  ">
+                        In the middle of every difficulty lies opportunity.
+                    </h1>
+                    <div className='text-sm text-end italic font-bold pb-5 text-gray-700'>~ Albert Einstein</div>
+                </div>
             </div>
-            <div className="flex m-8 w-80% h-60 p-10 justify-center">
-                <h1 className="text-4xl italic pt-10 text-black rounded-lg text-center bg-sky-300">
-                    Go Confidently in the direction of your dreams.<br/> Live the Life you Dream of.
-                </h1>
+            <div className="flex  justify-end">
+                <div className='p-4  bg-sky-300 m-8 w-3/4 h-40 flex flex-col text-center rounded-lg'>
+                    <div className='fill-black text-black '><Quote /></div>
+                    <h1 className="text-4xl italic  text-black  ">
+                        The best way to predict the future is to create it.
+                    </h1>
+                    <div className='text-sm text-end italic font-bold pb-5 text-gray-700'>~ Perter Druker</div>
+                </div>
             </div>
             <Footer/>
         </div>
